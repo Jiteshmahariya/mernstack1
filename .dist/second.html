@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #d12bb2;">
+  <form action="/submit" method="post">
+   
+    <div class="row">
+      <label for="name">Name:</label>
+      <input type="text" name="name"  id="name">
+    </div>
+    <div class="row">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="row">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div class="row">
+      <label for="phone">Phone Number:</label>
+      <input type="text" name="phone" id="phone">
+    </div>
+    <div class="row">
+        <p>Gender</p>
+      <label for="gender1">Male:</label>
+      <input type="radio" name="gender" id="gender1">
+      <label for="gender1">Female:</label>
+      <input type="radio" name="gender" id="gender1">
+      <label for="gender1">other:</label>  
+      <input type="radio" name="gender" id="gender1">
+    </div>
+    <div class="row">
+      <label for="language">Language:</label>
+      <select name="language" id="language">
+        <option value="english">English</option>
+        <option value="french">French</option>
+        <option value="spanish">Spanish</option>
+        <option value="german">German</option>
+      </select>
+    </div>
+    <div class="row">
+      <label for="zip">Zip Code:</label>
+      <input type="text" name="zip" id="zip">
+    </div>
+    <div class="row">
+      <label for="about">About:</label>
+      <textarea name="about" id="about" rows="5"></textarea>
+    </div>
+    <input type="submit" value="Register" style="background-color: #008CBA; color: white;">
+  </form>
+</body>
+</html>
